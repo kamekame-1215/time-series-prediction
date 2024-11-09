@@ -7,7 +7,7 @@
 
 ## フォルダ構成
 ```
-time_series
+time-series-prediction
 ├── data
 │    ├── data_submission_before.ipynb
 │    ├── data_submission_feature_chose.ipynb
@@ -17,20 +17,15 @@ time_series
 ```
 
 ## ファイルについて
-#### 1. `time_series/data.ipynb`
+#### 1. `data/data_submission_before.ipynb`
 #### 概要
 - データ理解
-  - データの型確認
-  - トレンド性・季節性の確認
-  - 異常値の確認
 - 特徴量エンジニアリング(EDA)の実施
 - モデル学習・テスト用データ生成
 
-#### 2. `time_series/model_lightgbm.ipynb`
-#### 概要
-- LightGBMを用いた株価予測
-  - Optuna適用前
-  - Optuna適用後
+#### 2. `data/data_submission_feature_chose.ipynb`
+#### 概要 
+- モデルに入力する特徴の選択
 
 #### 3. `time_series/model_lstm.ipynb`
 - LSTMを用いた株価予測

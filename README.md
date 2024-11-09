@@ -36,7 +36,7 @@ time-series-prediction
   - Optuna適用後
 
 ## 実行手順
-1. `data/data_submission_before.ipynb`を上のセルから実行し、csvファイルを生成する。
-※ インポートされているライブラリは各自でインストールを行うこと
-2. `data/data_submission_feature_chose.ipynb`を上のセルから実行し、csvファイルを生成する。
-3. 1. 2. で生成したcsvファイルを`model/model_letm.ipynb`、または`model/model_xgboost.ipynb`を実行する。
+1. `data/data_submission_before.ipynb`を上のセルから実行し、csvファイルを生成する。  
+※ インポートされているライブラリは各自でインストールを行うこと  
+2. `data/data_submission_feature_chose.ipynb`を上のセルから実行し、csvファイルを生成する。  
+3. 1. 2. で生成したcsvファイルを`model/model_letm.ipynb`、または`model/model_xgboost.ipynb`を実行する。  

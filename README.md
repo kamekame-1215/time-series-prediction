@@ -21,7 +21,7 @@ time-series-prediction
 ```
 
 ## ファイルについて
-#### 1. `time_series/lstm.ipynb`
+#### 1. `lstm.ipynb`
 - 株価データの取得
 - データの可視化
 - データの正規化

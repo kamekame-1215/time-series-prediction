@@ -17,7 +17,7 @@
 ## フォルダ構成
 ```
 time-series-prediction
-├── letm.ipynb
+├── lstm.ipynb
 ```
 
 ## ファイルについて
